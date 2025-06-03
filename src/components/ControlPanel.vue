@@ -53,7 +53,7 @@ const emitDataChange = () => {
 };
 
 const usePresetData = () => {
-  let preset = [];
+  let preset: string[] = [];
   switch (selectedStructure.value) {
     case 'array':
       preset = ['10', '20', '30', '40', '50'];
